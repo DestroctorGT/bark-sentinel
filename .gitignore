@@ -1,0 +1,21 @@
+# Binarios compilados
+/bark-sentinel
+*.exe
+
+# Archivos de entorno (NUNCA commiteados)
+.env.local
+.env.*
+
+# Pero NO ignorar .env*.example
+!.env*.example
+
+# Vendor
+vendor/
+
+# IDE
+.idea/
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
